@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #f0f0f0;
+}
+.photo {
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+
+/* Меню */
+.menu {
+    background: #2c4f7c;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+/* Основний контейнер */
+.container {
+    display: flex;
+    max-width: 1100px;
+    margin: 20px auto;
+    background: white;
+}
+
+/* Ліва частина */
+.left {
+    width: 30%;
+    background: #3f6b99;
+    color: white;
+    padding: 20px;
+}
+
+.left img {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.left h2 {
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+}
+
+.left ul {
+    padding-left: 20px;
+}
+
+/* Права частина */
+.right {
+    width: 70%;
+    padding: 30px;
+}
+
+.right h1 {
+    margin-top: 0;
+}
+
+.right h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+
+pre {
+    background: #eee;
+    padding: 10px;
+}
